@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+            <th>Informações adicionais </th>
+            <th>Informações adicionais </th>
+            <th>Informações adicionais </th>
+            <th>Informações adicionais </th>
+        </tr>
+        <tr>
+            <td>Tauan</td>
+            <td>34</td>
+            <td>Estudante</td>
+        </tr>
+        <tr>
+            <td>Reika</td>
+            <td>30</td>
+            <td>Programadora</td>
+        </tr>
+        <tr>
+            <td>Tainan</td>
+            <td rowspan="2">32</td>
+            <td>Programadora</td>
+        </tr>
+        <tr>
+            <td>Joana</td>
+            <td>21</td>
+            <td colspan="3">Programadora</td>
+        </tr>
+    </table>
+
+    <table>
+        <tr>
+            <td colspan="6">
+                ______________________________________________
+                ______________________________________________
+            </td>
+        </tr>
+    </table>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Idade</th>
+                <th>Informações adicionais </th>
+                <th>Informações adicionais </th>
+                <th>Informações adicionais </th>
+                <th>Informações adicionais </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Tauan</td>
+                <td>34</td>
+                <td>Estudante</td>
+            </tr>
+            <tr>
+                <td>Reika</td>
+                <td>30</td>
+                <td>Programadora</td>
+            </tr>
+            <tr>
+                <td>Tainan</td>
+                <td>32</td>
+                <td>Programadora</td>
+            </tr>
+            <tr>
+                <td>Joana</td>
+                <td>21</td>
+                <td>Programadora</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table>
+        <tr>
+            <td colspan="6">
+                ______________________________________________
+                ______________________________________________
+            </td>
+        </tr>
+    </table>
+
+    <table>
+        <caption>
+            Council budget (in £) 2018
+        </caption>
+        <thead>
+            <tr>
+                <th scope="col">Items</th>
+                <th scope="col">Expenditure</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">Donuts</th>
+                <td>3,000</td>
+            </tr>
+            <tr>
+                <th scope="row">Stationery</th>
+                <td>18,000</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Totals</th>
+                <td>21,000</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>
